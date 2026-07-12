@@ -1,0 +1,118 @@
+site_name: Microsoft Technical Archive
+site_description: Enterprise Security Engineering Knowledge Base for Microsoft platforms.
+site_url: https://fetilonia.github.io/
+repo_url: https://github.com/fetilonia/fetilonia.github.io
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: ko
+  logo: assets/brand.svg
+  favicon: assets/favicon.svg
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - content.code.copy
+    - content.action.edit
+    - content.tooltips
+    - search.suggest
+    - search.highlight
+    - search.share
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Light mode
+
+plugins:
+  - search:
+      lang:
+        - ko
+        - en
+  - tags
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - def_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/fetilonia
+  generator: false
+
+copyright: Microsoft Technical Archive · Source scope is restricted to the authorized Notion archive.
+
+nav:
+  - Home: index.md
+  - Start Here:
+      - Library Overview: start-here/index.md
+      - Engineering Principles: start-here/engineering-principles.md
+      - Evidence Model: start-here/evidence-model.md
+      - Content Classification: start-here/content-classification.md
+      - Source Boundary: start-here/source-boundary.md
+  - Azure:
+      - Overview: azure/index.md
+      - Entra ID:
+          - Overview: azure/entra-id/index.md
+          - WHfB Authentication Strength: azure/entra-id/whfb-authentication-strength.md
+          - Administrative Unit Feature Matrix: azure/entra-id/administrative-unit-feature-matrix.md
+          - Restricted Management AU: azure/entra-id/restricted-management-au.md
+          - Conditional Access Authentication Context: azure/entra-id/ca-authentication-context.md
+          - Entra ID IWA SSO: azure/entra-id/entra-iwa-sso.md
+          - AADC Installation and Operations: azure/entra-id/aadc-operations.md
+          - Password Synchronization: azure/entra-id/password-synchronization.md
+      - Global Secure Access:
+          - Overview: azure/global-secure-access/index.md
+          - Universal Tenant Restrictions: azure/global-secure-access/universal-tenant-restrictions.md
+          - License per Feature Matrix: azure/global-secure-access/license-feature-matrix.md
+      - Microsoft Sentinel:
+          - Overview: azure/sentinel/index.md
+          - Sentinel Data Lake: azure/sentinel/data-lake.md
+          - Hunting Query Library: azure/sentinel/hunting-query-library.md
+          - Custom Search Rule Library: azure/sentinel/custom-search-rule-library.md
+  - Exchange:
+      - Overview: exchange/index.md
+  - PowerShell:
+      - Overview: powershell/index.md
+  - Power Automate:
+      - Overview: power-automate/index.md
+  - Server:
+      - Overview: server/index.md
+  - MECM:
+      - Overview: mecm/index.md
+  - Reference:
+      - Source Registry: reference/source-registry.md
+      - Asset Manifest: reference/notion-asset-manifest.md
