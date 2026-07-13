@@ -113,6 +113,9 @@ nav:
   - Overview: server/index.md
 - MECM:
   - Overview: mecm/index.md
+- Microsoft 365 Security:
+  - Overview: domains/m365-security/index.md
+  - Graph Security API Alert Handling: domains/m365-security/graph-security-alert-handling.md
 - Reference:
   - Source Registry: reference/source-registry.md
   - Asset Manifest: reference/notion-asset-manifest.md
