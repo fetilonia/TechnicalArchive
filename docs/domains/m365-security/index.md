@@ -9,3 +9,7 @@ Microsoft Technical Archive 하위의 Microsoft 365 Security 관련 페이지를
 ## Migration status
 
 Microsoft Technical Archive의 실제 하위 페이지 구조를 수집한 뒤 topic tree를 생성합니다.
+
+## Migrated content
+
+- [Microsoft Graph Security API를 통한 Alert Handling](graph-security-alert-handling.md) — 1-page migration pilot

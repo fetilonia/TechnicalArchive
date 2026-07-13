@@ -4,6 +4,7 @@
 |---|---|---|---|
 | Microsoft Technical Archive | `36bdbd59-1ead-80a0-be5d-d0cc9d468183` | Root | Allowed |
 | Azure | `collection://28edbd59-1ead-8182-ad15-000bedd794fa` | Microsoft Technical Archive | Allowed |
+| M365 Securities | `collection://28cdbd59-1ead-81ee-b8cf-000b47444354` | Microsoft Technical Archive | Allowed |
 | Project Archive | — | External to allowed root | **Denied** |
 | Customer project pages | — | Project-specific | **Denied** |
 
