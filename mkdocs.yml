@@ -116,6 +116,12 @@ nav:
 - Microsoft 365 Security:
   - Overview: domains/m365-security/index.md
   - Graph Security API Alert Handling: domains/m365-security/graph-security-alert-handling.md
+  - Defender for Endpoint:
+    - Application Context: domains/m365-security/defender-endpoint/application-context.md
+    - Performance Analyzer: domains/m365-security/defender-endpoint/performance-analyzer.md
+    - AIR Alert Evidence: domains/m365-security/defender-endpoint/air-alert-evidence.md
+    - AMRunningMode Validation: domains/m365-security/defender-endpoint/amrunningmode-validation.md
+    - PUA Protection Validation: domains/m365-security/defender-endpoint/pua-protection-validation.md
 - Reference:
   - Source Registry: reference/source-registry.md
   - Asset Manifest: reference/notion-asset-manifest.md

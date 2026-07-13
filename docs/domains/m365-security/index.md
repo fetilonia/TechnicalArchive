@@ -13,3 +13,8 @@ Microsoft Technical Archive의 실제 하위 페이지 구조를 수집한 뒤 t
 ## Migrated content
 
 - [Microsoft Graph Security API를 통한 Alert Handling](graph-security-alert-handling.md) — 1-page migration pilot
+- [Microsoft Defender for Endpoint Application Context](defender-endpoint/application-context.md)
+- [Microsoft Defender Antivirus Performance Analyzer](defender-endpoint/performance-analyzer.md)
+- [AIR 및 Defender API Alert Evidence 추출](defender-endpoint/air-alert-evidence.md)
+- [Defender AMRunningMode 반환 구조 및 검증](defender-endpoint/amrunningmode-validation.md)
+- [PUA Protection Block·Audit 검증](defender-endpoint/pua-protection-validation.md)
